@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { PjtsComponent } from './pjts/pjts.component';
 import { SkillsComponent } from './skills/skills.component';
 
-const routes: Routes = [{path:'home',component:HomeComponent},
+const routes: Routes = [{path:'',component:HomeComponent},
 {path:'project',component:PjtsComponent},
 {path:'service',component:SkillsComponent},
 {path:'contact',component:ContactComponent}];

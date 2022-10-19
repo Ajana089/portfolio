@@ -11,7 +11,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 })
 export class PjtsComponent implements OnInit {
   
-  
+  image:String="assets/images/blueba.jpg"
+  image1:String="assets/images/new.jpg"
+  image2:String="assets/images/bluebk.jpg"
 
   constructor() { }
 

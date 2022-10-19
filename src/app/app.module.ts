@@ -11,6 +11,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http'; // Step 2
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 
@@ -30,7 +32,8 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     FormsModule,
     NgbCarouselModule,
-    HttpClientModule 
+    HttpClientModule ,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
